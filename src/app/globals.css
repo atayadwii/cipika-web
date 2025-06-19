@@ -11,6 +11,41 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+/* Tambahkan ini di CSS global */
+.cipika-link {
+  position: relative;
+  color: #212529;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.cipika-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -2px;
+  background-color: #198754; /* Bootstrap success color */
+  transition: width 0.3s ease;
+}
+
+.cipika-link:hover::after {
+  width: 100%;
+}
+
+.cipika-link.active {
+  color: #198754;
+  font-weight: bold;
+}
+
+.cipika-link.active::after {
+  width: 100%;
+}
+.nav-link {
+  transition: all 0.2s ease;
+}
 .hover-shadow:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   transform: translateY(-4px);

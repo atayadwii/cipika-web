@@ -94,7 +94,7 @@ export default function Tentang() {
                 {
                   nama: 'Shinta Nur Alyani',
                   img: '/assets/img/person1.jpeg',
-                  desc: 'Anomali 1',
+                  desc: 'ketua Mudeng',
                 },
                 {
                   nama: 'Ataya Dwi Tirtoyono',
@@ -103,7 +103,7 @@ export default function Tentang() {
                 },
                 {
                   nama: 'Nicola indy ariana grande',
-                  img: '/assets/img/person3.jpg',
+                  img: '/assets/img/person3.jpeg',
                   desc: 'Temennya Shinta',
                 },
               ].map(({ nama, img, desc }) => (
