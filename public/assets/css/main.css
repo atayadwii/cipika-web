@@ -11,54 +11,12 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
-.hover-shadow:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  transform: translateY(-4px);
-  transition: all 0.3s ease;
-}
-.service-item {
-  background: white;
-  border-radius: 12px;
-  padding: 20px;
-  transition: 0.3s;
-}
-.item-cyan {
-  border-top: 4px solid #00cfcf;
-}
-.item-orange {
-  border-top: 4px solid #ff6600;
-}
-.service-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-.navmenu a {
-  color: black;
-  transition: color 0.3s;
-}
-
-.navmenu a:hover,
-.navmenu a.active {
-  color: green; /* Atau #198754 biar match Bootstrap */
-}
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Poppins",  sans-serif;
 }
-a {
-  color: black;
-  text-decoration: none;
-}
 
-a:hover {
-  color: green;
-}
-
-a.active {
-  color: green;
-  font-weight: bold;
-}
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
@@ -1461,4 +1419,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-@import url('/assets/css/blobals.css');
+.starter-section {
+
+}
