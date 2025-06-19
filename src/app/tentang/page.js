@@ -98,7 +98,7 @@ export default function Tentang() {
                 },
                 {
                   nama: 'Ataya Dwi Tirtoyono',
-                  img: '/assets/img/person2.HEIC',
+                  img: '/assets/img/person2.jpg',
                   desc: 'Pacarnya Afiah',
                 },
                 {
