@@ -49,7 +49,7 @@ export default function Layanan() {
       </header>
 
       {/* Layanan Section */}
-      <section id="layanan" className="services section py-5">
+      <section id="layanan" className="services section py-5" style={{ background: 'linear-gradient(to right, #e0f7fa, #ffffff)' }}>
         <div className="container section-title text-center mb-5">
           <h1>Layanan Kami</h1>
           <p>Cipika menyediakan berbagai layanan untuk mendukung kebutuhan kamu dalam bercerita dan didengarkan.</p>

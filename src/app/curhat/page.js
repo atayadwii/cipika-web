@@ -121,7 +121,7 @@ export default function Curhat() {
               <div className="p-4 p-md-5 bg-white rounded-4 shadow">
                 <form className="row g-4" onSubmit={handleCeritaSubmit}>
                   <div className="col-md-6">
-                    <label htmlFor="nama" className="form-label">Nama (Opsional)</label>
+                    <label htmlFor="nama" className="form-label">Nama</label>
                     <input
                       type="text"
                       className="form-control"
@@ -181,7 +181,7 @@ export default function Curhat() {
               <div className="p-4 p-md-5 bg-white rounded-4 shadow">
                 <form className="row g-4" onSubmit={handleLayananSubmit}>
                   <div className="col-md-6">
-                    <label htmlFor="nama" className="form-label">Nama (Opsional)</label>
+                    <label htmlFor="nama" className="form-label">Nama</label>
                     <input
                       type="text"
                       className="form-control"
@@ -191,7 +191,7 @@ export default function Curhat() {
                     />
                   </div>
                   <div className="col-md-6">
-                    <label htmlFor="email" className="form-label">Email (Opsional)</label>
+                    <label htmlFor="email" className="form-label">Email</label>
                     <input
                       type="email"
                       className="form-control"
